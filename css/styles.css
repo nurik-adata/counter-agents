@@ -18,6 +18,7 @@
     height: 30%;
     background: #FFFFFF;
     display: flex;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.22);
 }
 .header-1 a{
     color: inherit;
@@ -43,7 +44,7 @@
 }
 .requests{
     list-style-type: none;
-    margin: auto 0 auto 242px;
+    margin: auto 0 auto 200px;
     padding: 0;
 }
 .requests__item{
@@ -71,7 +72,7 @@
     list-style-type: none;
     margin: auto 0 auto 0;
     padding: 0;
-    margin: auto 0 auto 70px;
+    margin: auto 0 auto 0px;
 
 
 }
@@ -84,6 +85,19 @@
 }
 .avatar__item img{
     vertical-align: middle;
+}
+.avatar-container{
+    visibility: hidden;
+}
+.avatar-container :active{
+    visibility: visible;
+    opacity: 1;
+
+}
+.avatar-menu{
+    list-style-type: none;
+    position: absolute;
+
 }
 .header-2{
     width: 100%;
